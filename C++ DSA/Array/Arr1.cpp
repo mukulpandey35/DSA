@@ -157,7 +157,7 @@ int main(){
         
     // }
 
-//------------------------>Reverse an array
+//----------------------->Reverse an array
 
     int arr[9]={2,3,6,4,8,7,1,12,1};
     int size=9;

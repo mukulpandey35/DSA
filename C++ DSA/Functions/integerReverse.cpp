@@ -9,7 +9,6 @@ int revInt(int x){
 
     if(x<INT32_MIN){
         return 0;
-
     }
 // if x input is less than 0 or negative 
     if(x<0){
