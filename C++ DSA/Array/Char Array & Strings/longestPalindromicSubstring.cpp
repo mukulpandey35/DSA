@@ -20,7 +20,7 @@ string longestPalindrome(string s)
 
     for (int i = 0; i < s.size(); i++)
     {
-        for (int j = 0; j < s.size(); j++)
+        for (int j = i; j < s.size(); j++)
         {
             if (isPalindrome(s, i, j))
             {
